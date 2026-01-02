@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "dfm-tracker-clean",
+    "name": "DFM Tracker",
     "slug": "dfm-tracker-clean",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.blscharan.dfmtrackerclean"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f40a3b96-09e5-4060-bb41-fd8a19a792f6"
+      }
     }
   }
 }
